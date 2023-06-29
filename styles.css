@@ -1,0 +1,202 @@
+* {
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 6px #000;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 8px;
+    transition: background 0.5s ease;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+h3 {
+    margin-top: 13px;
+}
+
+.nav-button {
+    position: absolute;
+    top: 1.4rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.nav-info {
+    display: none;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 2rem;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg)
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg)
+}
+
+.container {
+    display: grid;
+}
+
+.introduction-buttons {
+    margin: 2rem 0;
+}
+
+.introduction-buttons #explore-button {
+    background: linear-gradient(310.6deg, rgba(100, 0, 233, 1) 6.8%, rgba(166, 0, 188, 1) 57.8%);
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.introduction-buttons #create-button {
+    background-color: transparent;
+    border: none;
+    padding: 7px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.statistics-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 1rem;
+}
+
+.statistics-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistics-number {
+    font-size: 28px;
+    font-weight: 300;
+    margin-right: 0.5rem;
+}
+
+.statistics-text {
+    font-size: 16px;
+}
+
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.scrolled {
+    transition: opacity 0.5s ease;
+    background: linear-gradient(310.6deg, rgba(100, 0, 233, 0.94) 6.8%, rgba(166, 0, 188, 0.66) 57.8%);
+}
+.scrolled::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(310.6deg, rgba(100, 0, 233, 0.94) 6.8%, rgba(166, 0, 188, 0.66) 57.8%);
+    opacity: 0;
+    animation: fade-in 0.5s ease forwards;
+    z-index: -1;
+}
+
+.nfts {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.nfts img {
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 1rem 2.188rem;
+    }
+
+    h2 {
+        font-size: 28px;
+        margin: 2rem 0;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .nav-info {
+        display: initial;
+        position: absolute;
+        top: 1rem;
+        right: 3rem;
+        font-size: 1.17em;
+    }
+    .nav-info ul {
+        list-style-type: none;
+        display: flex;
+        gap: 43px;
+    }
+    .nav-info a {
+        text-decoration: none;
+    }
+
+    .introduction {
+        font-size: 20px;
+    }
+
+    .introduction-buttons #explore-button,
+    .introduction-buttons #create-button {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .statistics-number {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .statistics-text {
+        font-size: 24px;
+    }
+
+    .nfts {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .nfts img {
+        width: 90%;
+        margin-bottom: 3rem;
+    }
+}
