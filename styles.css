@@ -134,6 +134,9 @@ h3 {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .nfts img {
