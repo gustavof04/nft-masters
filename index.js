@@ -10,7 +10,7 @@ window.addEventListener('scroll', function() {
     if (artworksDiv) {
         let artworksPosition = artworksDiv.getBoundingClientRect().top;
         let scrollPosition = window.innerHeight;
-        let marginPercentage = 99;
+        let marginPercentage = 95;
         let margin = (scrollPosition * marginPercentage) / 100;
 
         if (artworksPosition < (scrollPosition - margin)) {
