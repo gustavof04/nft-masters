@@ -130,6 +130,11 @@ h3 {
     z-index: -1;
 }
 
+h2 {
+    font-size: 24px;
+    margin: 2rem 0;
+}
+
 .nfts {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
