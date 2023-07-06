@@ -192,10 +192,19 @@ h2 {
         padding: 1rem 2.188rem;
     }
 
+    h1 {
+        font-size: 3.5rem;
+    }
+
     h2 {
         font-size: 32px;
         margin-top: 0;
         margin-bottom: 3rem;
+    }
+
+    p {
+        margin: 2rem 0;
+        font-size: 21px;
     }
 
     .nav-button {
@@ -222,14 +231,18 @@ h2 {
         font-size: 20px;
     }
 
+    .introduction-buttons {
+        margin: 3rem 0;
+    }
+
     .introduction-buttons #explore-button,
     .introduction-buttons #create-button {
-        font-size: 20px;
+        font-size: 18px;
         padding: 10px 20px;
     }
 
     .statistics-info {
-        margin: 5rem 0;
+        margin: 3.5rem 0;
     }
 
     .statistics-number {
