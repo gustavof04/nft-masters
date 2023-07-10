@@ -59,6 +59,10 @@ h3 {
     display: grid;
 }
 
+p br {
+    display: none;
+}
+
 .introduction-buttons {
     margin: 2rem 0;
 }
@@ -225,6 +229,10 @@ h2 {
     }
     .nav-info a {
         text-decoration: none;
+    }
+
+    p br {
+        display: inherit;
     }
 
     .introduction {
