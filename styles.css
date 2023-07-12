@@ -29,6 +29,7 @@ h3 {
     top: 1.4rem;
     right: 1rem;
     cursor: pointer;
+    z-index: 10001;
 }
 
 .nav-info {
@@ -53,6 +54,51 @@ h3 {
 
 .change .bar3 {
     transform: translate(0, -11px) rotate(45deg)
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: none;
+}
+
+#overlay-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 10000;
+    transform: translateX(-100%);
+    transition: transform 0.3 ease;
+    overflow-y: auto;
+}
+
+#overlay-menu.show {
+    transform: translateX(0);
+}
+
+#overlay-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem;
+}
+
+#overlay-menu ul li {
+    margin: 2.5rem 0 2rem 0;
+}
+
+#overlay-menu ul li a {
+    color: rgba(166, 0, 188, 1);
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 620;
 }
 
 .container {

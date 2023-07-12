@@ -1,6 +1,16 @@
 // Testando o hamburger menu (em desenvolvimento)
-function myFunction(x) {
-    x.classList.toggle("change");
+function toggleMenu() {
+    const menuButton = document.getElementById('nav-button')
+    const menu = document.getElementById('overlay-menu');
+    menuButton.classList.toggle("change");
+    menu.classList.toggle("show");
+}
+
+function closeMenu() {
+    const menuButton = document.getElementById('nav-button')
+    const menu = document.getElementById('overlay-menu');
+    menuButton.classList.remove('change');
+    menu.classList.remove('show');
 }
 
 // Ao rolar a tela até atingir a <div> artworks, o background muda.
