@@ -27,7 +27,7 @@ h3 {
 .nav-button {
     position: absolute;
     top: 1.4rem;
-    right: 1rem;
+    right: 1.5rem;
     cursor: pointer;
     z-index: 10001;
 }
@@ -101,6 +101,10 @@ h3 {
     text-decoration: none;
     font-size: 2.5rem;
     font-weight: 620;
+}
+
+.no-scroll {
+    overflow: hidden;
 }
 
 .container {

@@ -2,8 +2,11 @@
 function toggleMenu() {
     const menuButton = document.getElementById('nav-button')
     const menu = document.getElementById('overlay-menu');
+    const body = document.body;
+
     menuButton.classList.toggle("change");
     menu.classList.toggle("show");
+    body.classList.toggle("no-scroll");
 }
 
 function closeMenu() {
