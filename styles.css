@@ -295,6 +295,12 @@ footer {
     gap: 16px;
 }
 
+small {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 @media (min-width: 686px) {
     body {
         padding: 1rem 2.188rem;
