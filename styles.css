@@ -431,7 +431,7 @@ small {
     }
 
     .nfts img {
-        width: 80%;
+        width: 95%;
     }
 
     footer {
@@ -457,5 +457,9 @@ small {
 
     .statistics-text {
         font-size: 32px;
+    }
+
+    .nfts img {
+        width: 65%;
     }
 }
