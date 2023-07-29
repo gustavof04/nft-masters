@@ -360,17 +360,30 @@ small {
 
     h1 {
         font-size: 3.5rem;
+        margin: 3rem auto;
+        max-width: 75rem;
+        padding: 0 2rem;
     }
 
     h2 {
         font-size: 32px;
         margin-top: 0;
         margin-bottom: 3rem;
+        text-align: center;
     }
 
     p {
         margin: 2rem 0;
         font-size: 21px;
+        margin: 3rem auto;
+        max-width: 75rem;
+        padding: 0 2rem;
+    }
+
+    .header-container {
+        margin: 0 auto;
+        max-width: 75rem;
+        padding: 0 2rem;
     }
 
     .nav-button {
@@ -379,9 +392,6 @@ small {
 
     .nav-info {
         display: initial;
-        position: absolute;
-        top: 1rem;
-        right: 3rem;
         font-size: 1.17em;
     }
     .nav-info ul {
@@ -402,7 +412,9 @@ small {
     }
 
     .introduction-buttons {
-        margin: 3rem 0;
+        margin: 0 auto;
+        max-width: 75rem;
+        padding: 0 2rem;
     }
 
     .introduction-buttons #explore-button,
@@ -412,7 +424,9 @@ small {
     }
 
     .statistics-info {
-        margin: 3.5rem 0;
+        margin: 3rem auto;
+        max-width: 75rem;
+        padding: 0 2rem;
     }
 
     .statistics-number {
@@ -427,7 +441,8 @@ small {
     .nfts {
         grid-template-columns: repeat(3, 1fr);
         gap: 3em;
-        margin: 3rem 0;
+        margin: 3rem auto;
+        max-width: 75rem;
     }
 
     .nfts img {
@@ -460,6 +475,6 @@ small {
     }
 
     .nfts img {
-        width: 65%;
+        width: 100%;
     }
 }
