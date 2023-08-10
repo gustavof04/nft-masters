@@ -7,7 +7,7 @@ Foi o primeiro projeto onde utilizei o conceito mobile first, que leva em consid
 ## ©️ Sobre as imagens
 Todas as imagens foram geradas por inteligência artificial no intuito de demonstrar artes digitais de NFT fictícias.
 
-## 💻 Veja meu projeto diretamente
+## 💻 Veja meu projeto diretamente!
 Veja o Nft Masters com o link direto abaixo:
 
 https://nft-masters.vercel.app
