@@ -488,4 +488,7 @@ small {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .footer-columns h3:not(.solutions-text) {
+        margin-top: 13px;
+    }
 }
