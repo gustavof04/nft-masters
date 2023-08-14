@@ -312,9 +312,9 @@ footer {
     padding-top: 24px;
 }
 
-.footer-columns h3 {
-    margin-top: 0;
-    margin-bottom: 25px;
+.footer-columns h3:not(.solutions-text) {
+    margin-top: 2rem;
+    margin-bottom: 1.17rem;
     font-size: 1.125rem;
 }
 
