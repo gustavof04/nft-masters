@@ -1,6 +1,8 @@
 # NFT Masters
 Landing page fictícia para compra e venda de NFTs feito com HTML, CSS e JavaScript. 
 
+> Status do Projeto: ✔️ (concluído)
+
 ## 🧠 Conhecimentos adquiridos
 Foi o primeiro projeto onde utilizei o conceito mobile first, que leva em consideração a usabilidade em dispositivos móveis primeiro. Como resultado, pude notar um acréscimo na produtividade do desenvolvimento comparado com meus projetos anteriores.
 
